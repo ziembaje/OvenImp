@@ -46,7 +46,4 @@ The webpage for the OvenImp provides the temperature measurement in the oven, ba
 Web Page
 ![webpage](web.PNG)
 
-SMS
-![SMS](text_notif.png)
-
 
