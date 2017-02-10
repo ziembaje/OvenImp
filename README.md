@@ -39,6 +39,8 @@ A custom 3D printed case was designed to house the OvenImp along with its 9V bat
 
 ![installed](on_oven.jpg)
 
+The software was written entirely using Electric Imp's web based IDE. The device code is all written in squirrel and the agent code is written using a combination of squirrel, HTML and some basic JavaScript. The agent code uses the Twilio API to enable the imp to send SMS notifications. It also uses the Rocky class to easily implement IO from the webpage and the agent.
+
 
 
 
