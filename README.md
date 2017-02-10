@@ -32,8 +32,7 @@ The photoresistors need to extend quite far from the imp. Because of this the ph
 
 The thermocouple interfaces with the MAX31855 IC which converts the analog voltage to a digital value and transmits it to the imp over SPI. In order to get oven temperatures from this simply place the probe in the oven while cooking and visit https://agent.electricimp.com/WKCeHKwjvcPJ to see the readings.
 
-A custon 3D printed case was designed to house the OvenImp along with its 9V battery and be easily mounted with double sided tape to the side of the oven.
-
+A custom 3D printed case was designed to house the OvenImp along with its 9V battery and be easily mounted with double sided tape to the side of the oven.
 
 ![installed](on_oven.jpg)
 
