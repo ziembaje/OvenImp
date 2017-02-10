@@ -41,7 +41,7 @@ A custom 3D printed case was designed to house the OvenImp along with its 9V bat
 
 The software was written entirely using Electric Imp's web based IDE. The device code is all written in squirrel and the agent code is written using a combination of squirrel, HTML and some basic JavaScript. The agent code uses the Twilio API to enable the imp to send SMS notifications. It also uses the Rocky class to easily implement IO from the webpage and the agent.
 
-The webpage for the OvenImp provides the temperature measurement in the oven, battery voltage so you know if the 9V batter should be changed as well as the ability to input a preheat temperature. Once this temperature is reached the imp will send a SMS and PWM the on board buzzer.
+The webpage for the OvenImp provides the temperature measurement in the oven and battery voltage so you know if the 9V battery should be changed. It also allows the user to input a preheat temperature. Once this temperature is reached the imp will send a SMS text and PWM the on board buzzer.
 
 Web Page
 
