@@ -96,11 +96,7 @@ function set_preheat(temp){
     preheat_flag = 1;
 }
 
-function preheat_alert(){
-    
-    server.log("temp" + celcius);
-    server.log("ptemp" + (preheat_temp - 5));
-    
+function preheat_alert(){   
     if ( ( celcius >= (preheat_temp - 5)) && preheat_flag ){
         server.log("sending alert");
 
