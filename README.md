@@ -28,7 +28,7 @@ The oven/stove on reminder works by detecting the ovens three built in lights wh
 The photoresistors need to extend quite far from the imp. Because of this the photoresistors were spliced with wire and connected to the OvenImp connector.
 
 
-![installed](imp_installed.PNG)
+![installed](imp_installed.jpg)
 
 
 
