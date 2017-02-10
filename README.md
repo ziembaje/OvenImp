@@ -21,11 +21,16 @@ Schematic
 PCB layout
 ![PCB](OvenImp_PCB.PNG)
 
-The Oven/stove on reminder works by detecting the ovens three built in lights which show when the oven or stove is on. The light is detected using three photoresistors each feeding in to a comparator circuit whose outputs are connected to the inputs of an OR gate. The output of this is connected to the Wakeup pin on the Imp 001. This is how the imp will wake up from deepsleep and know that the oven or stove is on. The imp will send a text notification after 30 minutes of it being on and every 10 minutes after that. (these values can be easily changed in the device code to whatever best suits your needs).
+The oven/stove on reminder works by detecting the ovens three built in lights which show when the oven or stove is on. The light is detected using three photoresistors each feeding in to a comparator circuit whose outputs are connected to the inputs of an OR gate. The output of this is connected to the Wakeup pin on the Imp 001. This is how the imp will wake up from deepsleep and know that the oven or stove is on. The imp will send a text notification after 30 minutes of it being on and every 10 minutes after that. (these values can be easily changed in the device code to whatever best suits your needs).
 
 ![PCB](wakeup_circuit.PNG)
 
-The OvenImp interfaces with three photoresistor probes and a thermocouple. You have to get creative in order to connect these to the OvenImps on board connectors.
+The photoresistors need to extend quite far from the imp. Because of this the photoresistors were spliced with wire and connected to the OvenImp connector.
 
 
-In this application the photoresistors needed to extend out to the ovens lights. The photoresistors are a through hole component designed to be on a circuitboard. 
+![installed](imp_installed.PNG)
+
+
+
+
+
