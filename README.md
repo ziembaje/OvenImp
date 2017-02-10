@@ -13,7 +13,7 @@ Pizza before OvenImp
 Pizza after OvenImp
 ![Pizza after](pizza_after.jpg)
 
-I wanted this project to be as close to a sellable product as possible. This is why I chose to build it on a PCB instead of a breadboard or perf board. I designed the board using Altium Designer and got it manufactured at AP Circuits in Alberta Canada due to their reasonable pricing and extremely fast turnaround time. The altium files are in a zip file in the repo for those interested.
+I wanted this project to be as close to a sellable product as possible. This is why I chose to build it on a PCB instead of a breadboard or perf board. I designed the board using Altium Designer and got it manufactured at AP Circuits in Alberta, Canada because of their reasonable pricing and extremely fast turnaround time. The altium files are in a zip file in the repo for those interested.
 
 Schematic
 ![Schematic](OvenImp_SCH.PNG)
