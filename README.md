@@ -6,7 +6,7 @@ This is a device for those who can't remember to turn their oven or stove off. T
 Many low end ovens have horribly innacurate temperature control. The OvenImp provides an accurate temperature measurement using a thermocouple and will notify you when the oven is preheated. This will let you cook the perfect pizza everytime.
 
 Pizza before OvenImp
-![Pizza before](pizza_before.jpg)
+![Pizza before](pizza_before.JPG)
 
 Pizza after OvenImp
 ![Pizza after](pizza_after.jpg)
