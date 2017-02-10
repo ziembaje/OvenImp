@@ -15,11 +15,14 @@ Pizza after OvenImp
 
 I wanted this project to be as close to a sellable product as possible. This is why I chose to build it on a PCB instead of a breadboard or perf board. I designed the board using Altium Designer and got it manufactured at AP Circuits in Alberta, Canada because of their reasonable pricing and extremely fast turnaround time. The altium files are in a zip file in the repo for those interested.
 
+PCB
+![PCB](PCB.jpg)
+
 Schematic
 ![Schematic](OvenImp_SCH.PNG)
 
 PCB layout
-![PCB](OvenImp_PCB.PNG)
+![PCB_doc](OvenImp_PCB.PNG)
 
 The oven/stove on reminder works by detecting the ovens three built in lights which show when the oven or stove is on. The light is detected using three photoresistors each feeding in to a comparator circuit whose outputs are connected to the inputs of an OR gate. The output of this is connected to the Wakeup pin on the Imp 001. This is how the imp will wake up from deepsleep and know that the oven or stove is on. The imp will send a text notification after 30 minutes of it being on and every 10 minutes after that. (these values can be easily changed in the device code to whatever best suits your needs).
 
