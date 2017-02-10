@@ -1,5 +1,5 @@
 # OvenImp
-This is a hardware application for the electric imp 001 module. OvenImp is a device designed to easily interface with your oven.
+This is a hardware application for the electric imp 001 module. OvenImp is a device designed to easily interface with your oven and provide mobile text notifications and data from it.
 
 ![OvenImp](OvenImp.jpg)
 
