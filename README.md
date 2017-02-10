@@ -44,6 +44,7 @@ The software was written entirely using Electric Imp's web based IDE. The device
 The webpage for the OvenImp provides the temperature measurement in the oven, battery voltage so you know if the 9V batter should be changed as well as the ability to input a preheat temperature. Once this temperature is reached the imp will send a SMS and PWM the on board buzzer.
 
 Web Page
+
 ![webpage](web.PNG)
 
 
